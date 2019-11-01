@@ -77,6 +77,7 @@ footer {
     grid-area: supervisor;
     border-top: 3px solid hsl(180, 62%, 55%);
     grid-column: 1 / 2;
+    margin-left: 10px;
 }
 
 .team-builder {
@@ -95,6 +96,7 @@ footer {
     grid-area: calculator;
     border-top: 3px solid hsl(212, 86%, 64%);
     grid-column: 3 / 3;
+    margin-right: 10px;
 }
 
 .img-card {
