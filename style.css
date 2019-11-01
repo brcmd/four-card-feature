@@ -1,0 +1,102 @@
+body {
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin: 30px 40px 50px 40px;
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+a {
+    color: hsl(234, 12%, 34%);
+}
+
+footer {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "supervisor team-builder calculator"
+        "supervisor karma calculator";
+        grid-column-gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.intro {
+    text-align: center;
+    max-width: 500px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px hsl(229, 6%, 66%);
+    margin-bottom: 25px;
+    padding: 30px;
+    max-width: 315px;
+}
+
+.h1-light {
+    font-weight: 200;
+}
+
+.supervisor {
+    grid-area: supervisor;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    grid-column: 1 / 2;
+}
+
+.team-builder {
+    grid-area: team-builder;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    grid-column: 2 / 2;
+}
+
+.karma {
+    grid-area: karma;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    grid-column: 2 / 2;
+}
+
+.calculator {
+    grid-area: calculator;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    grid-column: 3 / 3;
+}
+
+.img-card {
+    float: right;
+}
