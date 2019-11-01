@@ -40,10 +40,11 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "supervisor team-builder calculator"
-        "supervisor karma calculator";
-        grid-column-gap: 25px;
+                         "supervisor karma calculator";
+    grid-column-gap: 25px;
     justify-content: center;
     align-items: center;
+    margin: 0 30px 30px 30px;
 }
 
 @media only screen and (max-width: 768px) {
