@@ -19,3 +19,5 @@ From my point of view, the most complicated part was the desktop design, because
 The HTML structure was also simple. I had to think a little about the semantic tags. I planned the whole stucture and I wrote the HTML document before the CSS one.
 
 I used Photoshop to measure the margins, the size of the cards, etc. I wanted to create a pixel perfect webpage. However, I did some changes at the last minute because I thought that some of the margins of the .jpg where a bit too much.
+
+Thank you to https://www.frontendmentor.io/ for the challenge.
